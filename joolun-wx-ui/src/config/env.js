@@ -1,11 +1,11 @@
 //阿里OSS配置
 let ossAli = {
-  region: 'oss-cn-zhangjiakou',
-  endpoint: 'oss-cn-zhangjiakou.aliyuncs.com',
-  stsToken: '',
-  accessKeyId: 'xxxxxxxxx',
-  accessKeySecret: 'xxxxxxxxxxxxxxxxxxxxxx',
-  bucket: 'joolun-open',
+  region: 'oss-cn-beijing',
+  endpoint: 'oss-cn-beijing.aliyuncs.com',
+  // stsToken: '',
+  accessKeyId: 'LTAI5tRpc4wjKkNuooKqXEAX',
+  accessKeySecret: 'kHVXenPHfJqXWA2lw1hKjZAR25zP1f',
+  bucket: 'liwenxin-oss',
 }
 
 export {

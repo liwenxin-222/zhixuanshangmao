@@ -6,7 +6,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = defaultSettings.title || 'JooLun微信管理系统' // 标题
+const name = defaultSettings.title || 'A小智优选' // 标题
 
 const port = process.env.port || process.env.npm_config_port || 80 // 端口
 
@@ -34,7 +34,7 @@ module.exports = {
     proxy: {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       [process.env.VUE_APP_BASE_API]: {
-        target: `http://localhost:7500`,
+        target: `http://47.97.199.170:7500`,
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_BASE_API]: ''
